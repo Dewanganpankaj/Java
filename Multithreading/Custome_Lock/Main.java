@@ -19,7 +19,9 @@ public class Main {
             obj.Product(lock);
             System.out.println("main hu thread two");
         });
-
+        //  we need to start the thread
+        // th1.start();
+        // th2.start();
         th1.start();
         th2.start();
 
